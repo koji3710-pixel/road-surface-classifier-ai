@@ -1,3 +1,6 @@
+.venv/
+env/
+
 dataset/
 dataset_small/
 *.zip
@@ -7,3 +10,7 @@ __pycache__/
 
 .DS_Store
 Thumbs.db
+
+# 一時的なバックアップや大量のテスト画像を除外
+results_backup/
+test_images/test_photo_*.jpg
